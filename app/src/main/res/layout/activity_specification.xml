@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/customer_name"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorDarkAngel"
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/job_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="number"
+            android:maxLines="1"
+            android:hint="@string/job_price"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorDarkAngel"
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark">
+
+        <EditText
+            android:id="@+id/customer_measurement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeActionId="@+id/login"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:lines="6"
+            android:scrollHorizontally="false"
+            android:maxLines="1"
+            android:hint="@string/customer_measurement"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorDarkAngel"
+
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/save_btn"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_text"
+        android:textStyle="bold"
+        android:textColor="@color/colorAngel"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>
